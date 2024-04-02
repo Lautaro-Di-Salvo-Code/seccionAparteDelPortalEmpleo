@@ -82,14 +82,14 @@ export const ObjetoG = () => {
             op1: "Agencias Territoriales",
             op2: "Oficinas de Empleo",
             img1: "../dist/assets/A_Icono_AgenciasTerritoriales2.svg",
-            img2: "../dist/B_Icono_OfEmpleo2.svg"
+            img2: "../dist/assets/B_Icono_OfEmpleo2.svg"
         },
         footer:{
-            img1: "../dist/instagram-logo-24.png",
-            img2: "../dist/twitter-logo-24.png",
-            img3: "../dist/facebook-circle-logo-24.png",
-            img4: "../dist/youtube-logo-24.png",
-            img5: "../dist/linkedin-square-logo-24.png",
+            img1: "../dist/assets/instagram-logo-24.png",
+            img2: "../dist/assets/twitter-logo-24.png",
+            img3: "../dist/assets/facebook-circle-logo-24.png",
+            img4: "../dist/assets/youtube-logo-24.png",
+            img5: "../dist/assets/linkedin-square-logo-24.png",
         }
         
     }
