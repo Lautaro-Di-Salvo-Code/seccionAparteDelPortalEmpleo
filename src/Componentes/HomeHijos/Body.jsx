@@ -143,11 +143,11 @@ color: #fff;
     <div className="footer-left">
     <div className="social-icons">
     
-      <a href="#"><img src="../../../dist/assets/instagram-logo-24.png" alt="Facebook"/></a>
-      <a href="#"><img src="../../../dist/assets/twitter-logo-24.png" alt="Instagram"/></a>
-      <a href="#"><img src="../../../dist/assets/facebook-circle-logo-24.png" alt="Twitter"/></a>
-      <a href="#"><img src="../../../dist/assets/linkedin-square-logo-24.png" alt="YouTube"/></a>
-      <a href="#"><img src="../../../dist/assets/youtube-logo-24.png" alt="LinkedIn"/></a>
+      <a href="#"><img src="../../../public/instagram-logo-24.png" alt="Facebook"/></a>
+      <a href="#"><img src="../../../public/twitter-logo-24.png" alt="Instagram"/></a>
+      <a href="#"><img src="../../../public/facebook-circle-logo-24.png" alt="Twitter"/></a>
+      <a href="#"><img src="../../../public/linkedin-square-logo-24.png" alt="YouTube"/></a>
+      <a href="#"><img src="../../../public/youtube-logo-24.png" alt="LinkedIn"/></a>
     </div>
   </div>
   <div className="footer-right">

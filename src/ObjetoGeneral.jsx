@@ -59,7 +59,7 @@ export const ObjetoG = () => {
             op4:{
                 img: "https://www.portalempleo.gob.ar/images/webp/busca_empleo.webp",
                 titulo:"Buscá empleo",
-                sub: "Postulate a ofertas laborales publicadas por empresas."
+                sub: "Postulate a ofertas laborales dist/assestadas por empresas."
             },
         },
         capacitacionTrabajo:{
