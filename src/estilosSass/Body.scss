@@ -1,0 +1,213 @@
+@import "./Header.scss";
+$heightBackground: 60vh;
+$radius: 8px ;
+$maximoAncho:983px;
+$generalshadowboxDefault: 2px 2px 8px 2px rgba(0, 0, 0, 0.13);
+$generalshadowboxActive: 2px 2px 8px 10px rgba(0, 0, 0, 0.13);
+// seccion soy ciudadano
+.seccionSoyCiudadano{
+    margin: auto;
+    max-width: $maximoAncho;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    top: 10vh;
+    h3{
+        cursor: pointer;
+        &:hover{
+            color:#1275c6 ;
+        }
+    }
+}
+.grid-section {
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr)); // Dos columnas de igual ancho
+    grid-gap: 20px; // Espacio entre elementos
+    padding: 20px;
+    max-width: $maximoAncho;
+    margin: 10vh auto;
+    // height: $heightBackground;
+  }
+  
+// @media screen and(min-width: 700px) {
+    
+    .grid-item {
+      // background-color: #333;
+      cursor: pointer;
+      box-shadow: $generalshadowboxDefault;
+      color: #fff;
+      padding: 20px;
+      height: 28vh;
+      text-align: center;
+      transition: .2s ease-in-out;
+      transform: scale(1, 1);
+      border-radius: $radius;
+      &:hover{
+          transform: scale(1.02, 1.02);
+          box-shadow: $generalshadowboxDefault;
+          transition: .2s ease-in-out;
+      }
+      &:not():hover{
+          transition: .2s ease-in-out;
+  
+      }
+  }
+  .grid-moreinfoimg{
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.13);
+    background-position: center;
+    background-size: cover;
+    height:40vh ;
+    background-repeat: no-repeat;
+    transition:  background-size  3s ease ;
+    &:hover{
+        background-size: 110%;
+        background-repeat: no-repeat;
+        transition:  background-size  3s ease ;
+    }
+    &:not(:hover){
+        transition:  background-size 3s ease ;
+    }
+    p{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        padding: 1rem;
+        height: 28rem;
+    }
+    b{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-content: flex-end;
+        padding: 1rem;
+        height: 1rem;
+        color:#688ef1 ;
+        cursor: pointer;
+    }
+    
+}
+.grid-moreinfoCursos{
+    border-radius: $radius;
+    transition: .2s ease-in-out;
+    transform: scale(1, 1);
+    border-radius: $radius;
+    display: grid;
+    align-items: center;
+    box-shadow: $generalshadowboxDefault;
+    &:hover{
+        transform: scale(1.02, 1.02);
+        transition: .2s ease-in-out;
+    }
+    &:not():hover{
+        transition: .2s ease-in-out;
+
+    }
+    padding:1rem ;
+    margin: 5px;
+    cursor: pointer;
+    box-shadow: $generalshadowboxDefault;
+}
+.grid-section2{
+    .grid-moreinfo{
+        padding: 1rem;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        box-shadow: $generalshadowboxDefault;
+        height: 3rem;
+        border-radius: $radius;
+        cursor: pointer;
+        transform: scale(1, 1);
+        &:hover{
+               transform: scale(1.02, 1.02);
+               transition: .2s ease-in-out;
+           }
+           &:not(:hover){
+               transition: .2s ease-in-out;
+       
+           }
+    }
+}
+
+
+
+
+
+
+
+  
+
+// .grid-moreinfo {
+    
+// }
+.box-images{
+    height: 52vh;
+    box-shadow: $generalshadowboxDefault;
+    border-radius: $radius;
+    overflow: hidden;
+}
+
+
+
+//   seccion chica con lentes home
+.grid-section-bg{
+    background-position: center;
+    background-size: cover;
+    height:$heightBackground ;
+}
+.grid-section2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); // Dos columnas de igual ancho
+    grid-gap: 20px; // Espacio entre elementos
+    padding: 20px;
+    max-width: $maximoAncho;
+    margin: 5rem auto;
+
+  }
+
+//   fotter
+.main-footer {
+    background-color: $blueHeaderFooter;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 9vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 16vh;
+  }
+  
+  .footer-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos de los logos de redes sociales */
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons{
+    a {
+       margin-right: 10px;
+     }
+    img {
+     width: 30px;
+     height: 30px;
+    }
+  }
+  .footer-right {
+    flex: 1;
+    align-items: center;
+  }
+  
+ 
+
+
+    
+  
