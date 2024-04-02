@@ -1,8 +1,10 @@
-# React + Vite
+PAGINA ORIGINAL 👉 https://www.portalempleo.gob.ar/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+REPLICA 👉 https://portal-empleo-replica.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+![bfdbd](https://github.com/Lautaro-Di-Salvo-Code/replicaPortalEmpleo/assets/140952562/dc4f9117-00b6-4f8f-9721-5294448942e8)
+
+
