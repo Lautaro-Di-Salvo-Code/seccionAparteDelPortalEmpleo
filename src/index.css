@@ -64,6 +64,9 @@ header {
   .nav-links > *:hover {
     text-decoration: underline 3px  #fff; }
 
+@media screen and (max-width: 600px) {
+  .navlinks {
+    display: none; } }
 .cta-button {
   color: #fff;
   border: none;
@@ -263,6 +266,9 @@ header {
   .nav-links > *:hover {
     text-decoration: underline 3px  #fff; }
 
+@media screen and (max-width: 600px) {
+  .navlinks {
+    display: none; } }
 .cta-button {
   color: #fff;
   border: none;

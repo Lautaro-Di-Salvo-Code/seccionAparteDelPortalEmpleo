@@ -57,11 +57,11 @@ $navBarButtontutorial:#0072BB ;
 header {
     background-color: $blueHeaderFooter;
     color: #fff;
-  }
+}
+
   .lightblueNavbar{
       background-color: $navBarButtontutorial;
       nav {
-          
           margin: auto;
           max-width: $maximoAncho;
           display: flex;
@@ -78,21 +78,35 @@ header {
         }
         
 }
-  .logo {
-    font-size: 1.5rem;
-  }
-  
-  .nav-links >* {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 20px;
-    transition: 1s ;
+
+
+.logo {
+  font-size: 1.5rem;
+}
+
+.nav-links >* {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  transition: 1s ;
     &:hover{
-        text-decoration: underline 3px  #fff;
+      text-decoration: underline 3px  #fff;
     }
     
   }
   
+  @media screen and (max-width: 600px) {
+    
+        
+        
+          .navlinks{
+  
+            display: none;
+          }
+        
+      
+    
+  }
   .cta-button {
     // background-color: #ff6600;
     color: #fff;

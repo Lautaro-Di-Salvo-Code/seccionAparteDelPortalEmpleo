@@ -5,7 +5,8 @@ import {BrowserRouter,Routes, Route } from "react-router-dom"
 import { Body } from './HomeHijos/Body.jsx'
 export const Home = () => {
 
-     const {header ,
+     const {
+      header ,
       Navbar ,
       infoHeaderHome,
       CiudadanoEmpleador,
