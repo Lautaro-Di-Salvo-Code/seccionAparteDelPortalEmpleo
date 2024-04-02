@@ -12,7 +12,7 @@ export const Body = ({infoHeaderHome, CiudadanoEmpleador, capacitacionTrabajo, i
         <div className="carrusel-items">
 
           <div style={{backgroundImage:`url(${infoHeaderHome.op1.img})`  }} className="carrusel-item">
-            <h1 className='parr-carrusel' >{infoHeaderHome.op1.titulo }</h1>   
+            <h2 className='parr-carrusel' >{infoHeaderHome.op1.titulo }</h2>   
             <p>{infoHeaderHome.op1.subtitulo}</p>
             <div className='tutorial-button'>
 
@@ -21,7 +21,7 @@ export const Body = ({infoHeaderHome, CiudadanoEmpleador, capacitacionTrabajo, i
             </div>
             </div>
           <div style={{backgroundImage: `url(${infoHeaderHome.op2.img})`   }} className="carrusel-item">
-            <h1 className='parr-carrusel' >{infoHeaderHome.op2.titulo }</h1>   
+            <h2 className='parr-carrusel' >{infoHeaderHome.op2.titulo }</h2>   
 
             <p>{infoHeaderHome.op2.subtitulo}</p>
             <div className='tutorial-button'>
@@ -30,7 +30,7 @@ export const Body = ({infoHeaderHome, CiudadanoEmpleador, capacitacionTrabajo, i
             </div>
             </div>
           <div style={{backgroundImage: `url(${infoHeaderHome.op3.img})`  }} className="carrusel-item">
-            <h1 className='parr-carrusel' >{infoHeaderHome.op3.titulo }</h1>   
+            <h2 className='parr-carrusel' >{infoHeaderHome.op3.titulo }</h2>   
             <p>{infoHeaderHome.op3.subtitulo}</p>
             <div className='tutorial-button'>
 
@@ -76,7 +76,7 @@ export const Body = ({infoHeaderHome, CiudadanoEmpleador, capacitacionTrabajo, i
 
     <section style={{backgroundImage: `url(${capacitacionTrabajo.img})`}} className="grid-section-bg">
       <article className='capacitacionTrabajo-stiles'>
-      <h3>{capacitacionTrabajo.titulo}</h3>
+      <h2>{capacitacionTrabajo.titulo}</h2>
           <div>
               <p style={{fontWeight: "800", fontSize: "1.5rem"}}>{capacitacionTrabajo.tituloCaja}</p>
               <p  style={{color: "gray", fontWeight: "200", paddingTop: "1rem"}}>{capacitacionTrabajo.subCaja}</p>
@@ -105,6 +105,7 @@ color: #fff;
             </div>
     </section>
     <hr />
+
     {/* videos informativos */}
     <p style={{fontSize: "2rem",  color: "#000", maxWidth: "983px", margin: "auto"}}>Videos informativos</p>
     <section  className="grid-section2">
@@ -123,16 +124,17 @@ color: #fff;
         </div>
         </div>
     </section>
+    
     {/* agencias territoriales */}
     <section style={{}} className="grid-section2">
         <div className="grid-moreinfo">
             <img style={{height: "3rem", width: "3rem"}} src={agenciasTerrOficinas.img1} alt="" />
-           <h2>{agenciasTerrOficinas.op1}</h2> 
+           <h3>{agenciasTerrOficinas.op1}</h3> 
             </div>
         <div className="grid-moreinfo">
             <img style={{height: "3rem", width: "3rem"}} src={agenciasTerrOficinas.img2} alt="" />
             
-            <h2>{agenciasTerrOficinas.op1}</h2> 
+            <h3>{agenciasTerrOficinas.op1}</h3> 
             </div>
     </section>
     <footer className="main-footer">

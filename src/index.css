@@ -100,7 +100,7 @@ header {
   width: 100%;
   min-width: 100%;
   margin-right: 10px; }
-  .carrusel-item h1 {
+  .carrusel-item h2 {
     font-size: 48px;
     padding-top: 8rem;
     color: #fff;
@@ -299,7 +299,7 @@ header {
   width: 100%;
   min-width: 100%;
   margin-right: 10px; }
-  .carrusel-item h1 {
+  .carrusel-item h2 {
     font-size: 48px;
     padding-top: 8rem;
     color: #fff;
@@ -514,8 +514,8 @@ header {
   top: 14vh;
   margin: 2rem auto;
   padding-right: 36vw;
-  max-width: 31rem; }
-  .capacitacionTrabajo-stiles h3 {
+  max-width: 36rem; }
+  .capacitacionTrabajo-stiles h2 {
     color: #fff;
     margin-bottom: 1rem; }
   .capacitacionTrabajo-stiles div {
@@ -580,13 +580,12 @@ h5 {
 
 h3 {
   padding: 5px;
-  font-size: 35px;
+  font-size: 22px;
   color: black;
-  font-weight: 700; }
+  font-weight: 500; }
 
 h2 {
   font-size: 48px;
-  padding-top: 8rem;
   color: #fff;
   max-width: 983px;
   margin: auto; }
