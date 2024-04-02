@@ -176,42 +176,51 @@ $generalshadowboxActive: 2px 2px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 // Fotter
-.main-footer {
+.footer{
     background-color: $blueHeaderFooter;
+}
+.article-footer {
+    margin: auto;
+    max-width: $maximoAncho;
     color: #fff;
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    position: relative;
-    height: 9vh;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 16vh;
+    height:8vh ;
+    // position: relative;
+    // height: 9vh;
+    // bottom: 0;
+    // left: 0;
+    // right: 0;
+    // top: ;
   }
   
   .footer-left {
     display: flex;
     align-items: center;
+    width: 100%;
   }
   
   /* Estilos de los logos de redes sociales */
-.social-icons {
-    display: flex;
-}
+
   
   .social-icons{
-a {
+    display: flex;
+    flex-direction: row;
+    a {
     margin-right: 10px;
     }
     img {
      width: 30px;
      height: 30px;
-    }
+     filter: drop-shadow(2px 1px 3px  #fff);
+    }   
   }
   .footer-right {
     flex: 1;
+    display: grid;
     align-items: center;
+    max-width: 32vw;
   }
   
  

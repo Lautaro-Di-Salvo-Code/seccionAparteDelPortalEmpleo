@@ -137,19 +137,23 @@ color: #fff;
             <h3>{agenciasTerrOficinas.op1}</h3> 
             </div>
     </section>
-    <footer className="main-footer">
+    <footer className="footer">
+    <article className="article-footer">
+
     <div className="footer-left">
     <div className="social-icons">
-      <a href="#"><img src="facebook-logo.png" alt="Facebook"/></a>
-      <a href="#"><img src="instagram-logo.png" alt="Instagram"/></a>
-      <a href="#"><img src="twitter-logo.png" alt="Twitter"/></a>
-      <a href="#"><img src="youtube-logo.png" alt="YouTube"/></a>
-      <a href="#"><img src="linkedin-logo.png" alt="LinkedIn"/></a>
+    
+      <a href="#"><img src="../../../public/instagram-logo-24.png" alt="Facebook"/></a>
+      <a href="#"><img src="../../../public/twitter-logo-24.png" alt="Instagram"/></a>
+      <a href="#"><img src="../../../public/facebook-circle-logo-24.png" alt="Twitter"/></a>
+      <a href="#"><img src="../../../public/linkedin-square-logo-24.png" alt="YouTube"/></a>
+      <a href="#"><img src="../../../public/youtube-logo-24.png" alt="LinkedIn"/></a>
     </div>
   </div>
   <div className="footer-right">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula lectus vitae lorem efficitur, a accumsan velit tristique.</p>
+    <p>Version. 6554bfbfb</p>
   </div>
+    </article>
 </footer>
 
     </>

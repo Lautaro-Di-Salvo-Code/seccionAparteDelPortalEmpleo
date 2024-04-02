@@ -81,8 +81,8 @@ export const ObjetoG = () => {
         agenciasTerrOficinas:{
             op1: "Agencias Territoriales",
             op2: "Oficinas de Empleo",
-            img1: "./assets/B_Icono_OfEmpleo2.svg",
-            img2: "./assets/A_Icono_AgenciasTerritoriales2.svg"
+            img1: "../public/A_Icono_AgenciasTerritoriales2.svg",
+            img2: "../public/B_Icono_OfEmpleo2.svg"
         },
         
     }

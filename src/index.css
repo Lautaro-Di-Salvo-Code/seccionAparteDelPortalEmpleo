@@ -532,36 +532,39 @@ header {
   max-width: 983px;
   margin: 5rem auto; }
 
-.main-footer {
-  background-color: #232D4F;
+.footer {
+  background-color: #232D4F; }
+
+.article-footer {
+  margin: auto;
+  max-width: 983px;
   color: #fff;
   padding: 20px;
   display: flex;
   justify-content: space-between;
-  position: relative;
-  height: 9vh;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 16vh; }
+  height: 8vh; }
 
 .footer-left {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  width: 100%; }
 
 /* Estilos de los logos de redes sociales */
 .social-icons {
-  display: flex; }
-
-.social-icons a {
-  margin-right: 10px; }
-.social-icons img {
-  width: 30px;
-  height: 30px; }
+  display: flex;
+  flex-direction: row; }
+  .social-icons a {
+    margin-right: 10px; }
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    filter: drop-shadow(2px 1px 3px #fff); }
 
 .footer-right {
   flex: 1;
-  align-items: center; }
+  display: grid;
+  align-items: center;
+  max-width: 32vw; }
 
 img {
   height: auto;
