@@ -151,7 +151,7 @@ color: #fff;
     </div>
   </div>
   <div className="footer-right">
-    <p>Version. 6554bfbfb</p>
+    <p style={{width: "max-content"}}>Version. 6554bfbfb</p>
   </div>
     </article>
 </footer>
