@@ -39,16 +39,16 @@ header {
   background-color: #232D4F;
   color: #fff; }
 
-article {
+.lightblueNavbar {
   background-color: #0072BB; }
-  article nav {
+  .lightblueNavbar nav {
     margin: auto;
     max-width: 983px;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     align-items: center; }
-    article nav .navlinks {
+    .lightblueNavbar nav .navlinks {
       display: flex;
       justify-content: space-between;
       align-items: center; }
@@ -238,16 +238,16 @@ header {
   background-color: #232D4F;
   color: #fff; }
 
-article {
+.lightblueNavbar {
   background-color: #0072BB; }
-  article nav {
+  .lightblueNavbar nav {
     margin: auto;
     max-width: 983px;
     display: flex;
     justify-content: space-between;
     height: 10vh;
     align-items: center; }
-    article nav .navlinks {
+    .lightblueNavbar nav .navlinks {
       display: flex;
       justify-content: space-between;
       align-items: center; }
@@ -507,7 +507,22 @@ article {
 .grid-section-bg {
   background-position: center;
   background-size: cover;
-  height: 60vh; }
+  height: 53vh; }
+
+.capacitacionTrabajo-stiles {
+  position: relative;
+  top: 14vh;
+  margin: 2rem auto;
+  padding-right: 36vw;
+  max-width: 31rem; }
+  .capacitacionTrabajo-stiles h3 {
+    color: #fff;
+    margin-bottom: 1rem; }
+  .capacitacionTrabajo-stiles div {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    border-bottom: solid 10px #37BBED; }
 
 .grid-section2 {
   display: grid;
@@ -565,17 +580,20 @@ h5 {
 
 h3 {
   padding: 5px;
-  font-size: 20px;
-  color: black; }
+  font-size: 35px;
+  color: black;
+  font-weight: 700; }
 
 h2 {
-  font-size: 25px;
-  padding: 5px;
-  color: black; }
+  font-size: 48px;
+  padding-top: 8rem;
+  color: #fff;
+  max-width: 983px;
+  margin: auto; }
 
 hr {
   opacity: 30%;
-  margin: auto;
+  margin: 2rem auto;
   max-width: 983px; }
 
 /*# sourceMappingURL=index.css.map */

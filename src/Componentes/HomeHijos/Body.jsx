@@ -75,23 +75,39 @@ export const Body = ({infoHeaderHome, CiudadanoEmpleador, capacitacionTrabajo, i
     {/* imagen de chica con lentes  */}
 
     <section style={{backgroundImage: `url(${capacitacionTrabajo.img})`}} className="grid-section-bg">
-      
+      <article className='capacitacionTrabajo-stiles'>
+      <h3>{capacitacionTrabajo.titulo}</h3>
+          <div>
+              <p style={{fontWeight: "800", fontSize: "1.5rem"}}>{capacitacionTrabajo.tituloCaja}</p>
+              <p  style={{color: "gray", fontWeight: "200", paddingTop: "1rem"}}>{capacitacionTrabajo.subCaja}</p>
+          </div>
+      </article>
     </section>
 
+{/* 
+color: #fff;
+      padding-top: 1rem;
+      font-weight: 200;
+
+
+*/}
+
+
+
     {/* informacion de cursos en otras entidades */}
-    <hr />
     <section  className="grid-section2">
         <div className="grid-moreinfoCursos">
             
            <h3>{inscriptionCursosCursosCortos.op1}</h3> 
             </div>
-        <div className="grid-moreinfoCursos">
+        <div className="grid-moreinfoCursos"> 
            <h3>{inscriptionCursosCursosCortos.op2}</h3> 
             </div>
     </section>
+    <hr />
     {/* videos informativos */}
     <p style={{fontSize: "2rem",  color: "#000", maxWidth: "983px", margin: "auto"}}>Videos informativos</p>
-    <section style={{}} className="grid-section2">
+    <section  className="grid-section2">
         <div className='box-images'>
 
         <div style={{ backgroundImage: `url(${videosInformativos.img1})`}} className="grid-moreinfoimg">

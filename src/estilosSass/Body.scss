@@ -1,5 +1,5 @@
 @import "./Header.scss";
-$heightBackground: 60vh;
+$heightBackground: 53vh;
 $radius: 8px ;
 $maximoAncho:983px;
 $generalshadowboxDefault: 2px 2px 8px 2px rgba(0, 0, 0, 0.13);
@@ -132,16 +132,6 @@ $generalshadowboxActive: 2px 2px 8px 10px rgba(0, 0, 0, 0.13);
 }
 
 
-
-
-
-
-
-  
-
-// .grid-moreinfo {
-    
-// }
 .box-images{
     height: 52vh;
     box-shadow: $generalshadowboxDefault;
@@ -151,23 +141,41 @@ $generalshadowboxActive: 2px 2px 8px 10px rgba(0, 0, 0, 0.13);
 
 
 
-//   seccion chica con lentes home
+//   Seccion chica con lentes home
 .grid-section-bg{
     background-position: center;
     background-size: cover;
     height:$heightBackground ;
 }
+.capacitacionTrabajo-stiles{
+    position: relative;
+    top: 14vh;
+    margin: 2rem auto;
+    padding-right: 36vw;
+    max-width: 31rem;
+    h3{
+        color: #fff;
+        margin-bottom: 1rem;
+    }
+    div{
+        background-color: #fff;
+        padding: 1rem;
+        border-radius: $radius;
+        border-bottom: solid 10px #37BBED;
+    }
+
+}
 .grid-section2 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); // Dos columnas de igual ancho
-    grid-gap: 20px; // Espacio entre elementos
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); 
+    grid-gap: 20px; 
     padding: 20px;
     max-width: $maximoAncho;
     margin: 5rem auto;
 
-  }
+}
 
-//   fotter
+// Fotter
 .main-footer {
     background-color: $blueHeaderFooter;
     color: #fff;
@@ -188,14 +196,14 @@ $generalshadowboxActive: 2px 2px 8px 10px rgba(0, 0, 0, 0.13);
   }
   
   /* Estilos de los logos de redes sociales */
-  .social-icons {
+.social-icons {
     display: flex;
-  }
+}
   
   .social-icons{
-    a {
-       margin-right: 10px;
-     }
+a {
+    margin-right: 10px;
+    }
     img {
      width: 30px;
      height: 30px;

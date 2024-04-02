@@ -14,7 +14,7 @@ export const HoleHeader = ({header, Navbar}) => {
     </div>
   </article>
 
-  <article>
+  <article className="lightblueNavbar">
 
 
     <nav>
