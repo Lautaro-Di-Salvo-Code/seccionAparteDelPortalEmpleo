@@ -12,7 +12,8 @@ export const Home = () => {
       capacitacionTrabajo ,
       inscriptionCursosCursosCortos,
       videosInformativos,
-      agenciasTerrOficinas
+      agenciasTerrOficinas,
+      footer
     } = ObjetoG()
 
   return (
@@ -28,6 +29,7 @@ export const Home = () => {
       inscriptionCursosCursosCortos={inscriptionCursosCursosCortos}
       videosInformativos={videosInformativos}
       agenciasTerrOficinas={agenciasTerrOficinas}
+      footer={footer}
       />}/>
     </Routes>
 

@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export const Body = ({infoHeaderHome, CiudadanoEmpleador, capacitacionTrabajo, inscriptionCursosCursosCortos , videosInformativos, agenciasTerrOficinas}) => {
+export const Body = ({infoHeaderHome, CiudadanoEmpleador, capacitacionTrabajo, inscriptionCursosCursosCortos , videosInformativos, agenciasTerrOficinas, footer}) => {
 
 
   return (
@@ -143,11 +143,11 @@ color: #fff;
     <div className="footer-left">
     <div className="social-icons">
     
-      <a href="#"><img src="../../../public/instagram-logo-24.png" alt="Facebook"/></a>
-      <a href="#"><img src="../../../public/twitter-logo-24.png" alt="Instagram"/></a>
-      <a href="#"><img src="../../../public/facebook-circle-logo-24.png" alt="Twitter"/></a>
-      <a href="#"><img src="../../../public/linkedin-square-logo-24.png" alt="YouTube"/></a>
-      <a href="#"><img src="../../../public/youtube-logo-24.png" alt="LinkedIn"/></a>
+      <a href="#"><img src={footer.img1} alt="Facebook"/></a>
+      <a href="#"><img src={footer.img2} alt="Instagram"/></a>
+      <a href="#"><img src={footer.img3}  alt="Twitter"/></a>
+      <a href="#"><img src={footer.img4}  alt="YouTube"/></a>
+      <a href="#"><img src={footer.img5} alt="LinkedIn"/></a>
     </div>
   </div>
   <div className="footer-right">

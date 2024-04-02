@@ -81,9 +81,16 @@ export const ObjetoG = () => {
         agenciasTerrOficinas:{
             op1: "Agencias Territoriales",
             op2: "Oficinas de Empleo",
-            img1: "../public/A_Icono_AgenciasTerritoriales2.svg",
-            img2: "../public/B_Icono_OfEmpleo2.svg"
+            img1: "/public/A_Icono_AgenciasTerritoriales2.svg",
+            img2: "/public/B_Icono_OfEmpleo2.svg"
         },
+        footer:{
+            img1: "/public/instagram-logo-24.png",
+            img2: "/public/twitter-logo-24.png",
+            img3: "/public/facebook-circle-logo-24.png",
+            img4: "/public/youtube-logo-24.png",
+            img5: "/public/linkedin-square-logo-24.png",
+        }
         
     }
     return Home
