@@ -14,16 +14,16 @@ export const HoleHeader = ({header, Navbar}) => {
     </div>
   </article>
 
-  <article className="lightblueNavbar">
+  <article   className="lightblueNavbar">
 
 
     <nav>
       {/* barra de navecacion */}
    <div className="nav-links">
-       <NavLink to="/">{Navbar.op1}</NavLink>
-       <NavLink to=""> {Navbar.op2}</NavLink>
-       <NavLink to=""> {Navbar.op3}</NavLink>
-       <NavLink to=""> {Navbar.op4}</NavLink>
+       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to="/Home">{Navbar.op1}</NavLink>
+       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to="/2"> {Navbar.op2}</NavLink>
+       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op3}</NavLink>
+       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op4}</NavLink>
    </div>
    
    {/* todo el boton de ingresar con animacion */}

@@ -3,6 +3,10 @@ import { HoleHeader } from './HomeHijos/HoleHeadear.jsx'
 import { ObjetoG } from '../ObjetoGeneral.jsx'
 import {BrowserRouter,Routes, Route } from "react-router-dom"
 import { Body } from './HomeHijos/Body.jsx'
+import { InstitucionesDeFormacion } from './InstitucionesDeFormacion.jsx'
+import { Footer } from './Fotter.jsx'
+
+
 export const Home = () => {
 
      const {
@@ -23,7 +27,7 @@ export const Home = () => {
     <HoleHeader header={header} Navbar={Navbar}/>
 
     <Routes>
-    <Route path="/" element={<Body
+    <Route  path="/Home" element={<Body
       infoHeaderHome={infoHeaderHome}
       CiudadanoEmpleador={CiudadanoEmpleador}
       capacitacionTrabajo={capacitacionTrabajo}
@@ -32,8 +36,9 @@ export const Home = () => {
       agenciasTerrOficinas={agenciasTerrOficinas}
       footer={footer}
       />}/>
+      <Route  path='/2' element={<InstitucionesDeFormacion/>  }/>
     </Routes>
-
+    <Footer footer={footer}/>
   </BrowserRouter>
    </>
   )

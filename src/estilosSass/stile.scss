@@ -1,10 +1,14 @@
 
 @import "./Header.scss";
 @import "./Body.scss";
+@import "./InstFormacion.scss";
 
 img{
     height: auto;
     width: 50%;
+}
+footer{
+    margin: 0;
 }
 body{
     font-family: 'Encode Sans', sans-serif;
@@ -12,6 +16,12 @@ body{
     font-weight: 900;
 }
 
+
+html{
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    margin: 0;
+}
 h5{
     padding: 5px;
     font-size: 16px;

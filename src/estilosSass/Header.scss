@@ -75,38 +75,42 @@ header {
               justify-content: space-between;
               align-items: center;
             }
+          }
+          
         }
         
-}
-
-
-.logo {
-  font-size: 1.5rem;
-}
-
+        
+        .logo {
+          font-size: 1.5rem;
+        }
+        
 .nav-links >* {
   color: #fff;
   text-decoration: none;
-  margin-right: 20px;
-  transition: 1s ;
-    &:hover{
-      text-decoration: underline 3px  #fff;
-    }
-    
-  }
-  
-  @media screen and (max-width: 600px) {
-    
+  margin-right: 5px;
+  padding: 3px;
+          
+}
         
-        
+        @media screen and (max-width: 600px) {
+          
+          
+          
           .navlinks{
-  
+            
             display: none;
           }
-        
-      
-    
-  }
+          
+          
+          
+        }
+
+.LinksNav{
+  
+  outline:  #fff solid 1px;
+  
+  border-radius: $radius;
+}
   .cta-button {
     // background-color: #ff6600;
     color: #fff;
