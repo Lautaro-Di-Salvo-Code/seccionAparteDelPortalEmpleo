@@ -84,33 +84,19 @@ header {
           font-size: 1.5rem;
         }
         
-.nav-links >* {
-  color: #fff;
-  text-decoration: none;
-  margin-right: 5px;
-  padding: 3px;
-          
-}
-        
-        @media screen and (max-width: 600px) {
-          
-          
-          
-          .navlinks{
-            
-            display: none;
+        .nav-links >* {
+          color: #fff;
+          text-decoration: none;
+          margin-right: 1rem;
+          padding: 3px;
+          &:hover{
+            color: #232D4F;
           }
-          
-          
-          
         }
-
-.LinksNav{
-  
-  outline:  #fff solid 1px;
-  
-  border-radius: $radius;
-}
+        .LinksNav{
+          color: #232D4F;
+          border-radius: $radius;
+        }
   .cta-button {
     // background-color: #ff6600;
     color: #fff;
