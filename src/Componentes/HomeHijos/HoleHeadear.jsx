@@ -24,10 +24,13 @@ export const HoleHeader = ({header, Navbar}) => {
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to="/2"> {Navbar.op2}</NavLink>
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op3}</NavLink>
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op4}</NavLink>
+       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op5}</NavLink>
+       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op6}</NavLink>
+       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op7}</NavLink>
    </div>
    
    {/* todo el boton de ingresar con animacion */}
-   <button className="c-button c-button--gooey"> Ingresar
+   {/* <button className="c-button c-button--gooey"> Ingresar
   <div className="c-button__blobs">
   <div></div>
   <div></div>
@@ -43,7 +46,7 @@ export const HoleHeader = ({header, Navbar}) => {
       <feBlend in="SourceGraphic" in2="goo"></feBlend>
     </filter>
   </defs>
-</svg>
+</svg> */}
    
    
   
