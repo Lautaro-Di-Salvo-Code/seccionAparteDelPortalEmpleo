@@ -4,6 +4,8 @@ $radius: 8px ;
 $maximoAncho:983px;
 $generalshadowboxDefault: 2px 2px 8px 2px rgba(0, 0, 0, 0.13);
 $generalshadowboxActive: 2px 2px 8px 10px rgba(0, 0, 0, 0.13);
+$colorVerteLetrasGeneral: #009AAA;
+$bgVerdecajas: #99D7DD;
 // seccion soy ciudadano
 .seccionSoyCiudadano{
     margin: auto;
@@ -186,7 +188,7 @@ $generalshadowboxActive: 2px 2px 8px 10px rgba(0, 0, 0, 0.13);
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    height:8vh ;
+    height: 11vh;
     // position: relative;
     // height: 9vh;
     // bottom: 0;

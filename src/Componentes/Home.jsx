@@ -38,7 +38,7 @@ export const Home = () => {
       />}/>
       <Route  path='/2' element={<InstitucionesDeFormacion/>  }/>
     </Routes>
-    <Footer footer={footer}/>
+      <Footer footer={footer}/>
   </BrowserRouter>
    </>
   )

@@ -1,11 +1,12 @@
 @import "./Header.scss";
+@import "./Body.scss";
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 50vh; // Ajusta la altura como desees
+    height: 51dvh; // Ajusta la altura como desees
     margin: 10vh  auto 0 auto;
-    max-width: $maximoAncho;
+    max-width: 628px;
   }
   
   .row {
@@ -13,13 +14,43 @@
     height: 10vh;
     display: flex;
     justify-content: center;
-  }
-  
+    
+}
+.titleGreen{
+    h3{
+        border-bottom: 3px solid $colorVerteLetrasGeneral;
+
+        color: $colorVerteLetrasGeneral;
+    }
+}
+.col-green{
+    background-color: $bgVerdecajas;
+    cursor: pointer;
+    h3{
+        color: #007BFF ;
+
+    }
+    svg{
+        fill: #007BFF;
+    }
+    &:hover {
+        h3{
+            color: #0357b1 ;
+    
+        }
+        svg{
+            cursor: pointer;
+            fill: #0357b1;
+        }
+
+    }
+}
+
   .column {
     flex: 1;
-    background-color: lightgray;
-    border: 1px solid gray;
-    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 11px;
     margin: 10px;
     text-align: center;
   }
