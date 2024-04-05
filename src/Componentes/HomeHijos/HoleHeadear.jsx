@@ -20,7 +20,7 @@ export const HoleHeader = ({header, Navbar}) => {
     <nav>
       {/* barra de navecacion */}
    <div className="nav-links">
-       <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to="/Home">{Navbar.op1}</NavLink>
+        <a href="https://portal-empleo-replica.netlify.app/Home">{Navbar.op1}</a>
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to="/2"> {Navbar.op2}</NavLink>
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op3}</NavLink>
        <NavLink className={({ isActive}) => isActive ? "LinksNav" : null } to=""> {Navbar.op4}</NavLink>
