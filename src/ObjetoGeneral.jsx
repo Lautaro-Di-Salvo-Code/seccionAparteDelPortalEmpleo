@@ -6,17 +6,25 @@ export const ObjetoG = () => {
             logo: "https://www.portalempleo.gob.ar/images/escudo_mch_medium.png",
             titulo: "Portal Empleo"
         },
+        // Navbar: {
+        //     op1: "Home", 
+        //     op2: "Ciudadanos", 
+        //     op3: "Empresas",
+        //     op4: "Oficinas de empleo y agencias territoriales", 
+        //     op5: "Sindicatos", 
+        //     op6: "Instituciones de formacion", 
+        //     op7: "Contacto", 
+        // },
+        
         Navbar: {
             op1: "Home", 
-            op2: "Ciudadanos", 
-            op3: "Empresas",
-            op4: "Oficinas de empleo y agencias territoriales", 
-            op5: "Sindicatos", 
-            op6: "Instituciones de formacion", 
-            op7: "Contacto", 
+            op2: "Inactivo", 
+            op3: "Inactivo",
+            op4: "Inactivo", 
+            op5: "Inactivo", 
+            op6: "Inactivo", 
+            op7: "Inactivo", 
         },
-        
-       
         footer:{
             img1: "../dist/assets/instagram-logo-24.png",
             img2: "../dist/assets/twitter-logo-24.png",
