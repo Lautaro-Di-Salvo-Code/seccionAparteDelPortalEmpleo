@@ -1174,9 +1174,18 @@ header {
   display: flex;
   justify-content: center; }
 
-.titleGreen h3 {
+.div-border-bottom_title {
   border-bottom: 3px solid #009AAA;
-  color: #009AAA; }
+  width: 76%; }
+
+.titleBoxSecondSection {
+  display: flex;
+  padding-bottom: 5px;
+  justify-content: space-evenly; }
+  .titleBoxSecondSection h3 {
+    color: #009AAA; }
+  .titleBoxSecondSection img {
+    width: 5rem; }
 
 .col-green {
   background-color: #99D7DD;

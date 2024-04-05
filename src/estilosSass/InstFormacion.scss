@@ -7,22 +7,34 @@
     height: 51dvh; // Ajusta la altura como desees
     margin: 10vh  auto 0 auto;
     max-width: 628px;
-  }
-  
-  .row {
+}
+
+.row {
     // flex: 1;
     height: 10vh;
     display: flex;
     justify-content: center;
     
 }
-.titleGreen{
+.div-border-bottom_title{
+    border-bottom: 3px solid $colorVerteLetrasGeneral;
+    width: 76%;
+    
+}
+.titleBoxSecondSection{
+    
+    display: flex;
+    padding-bottom: 5px;
+    justify-content: space-evenly;
     h3{
-        border-bottom: 3px solid $colorVerteLetrasGeneral;
-
+        
         color: $colorVerteLetrasGeneral;
     }
+    img{
+        width: 5rem;
+    }
 }
+
 .col-green{
     background-color: $bgVerdecajas;
     cursor: pointer;
@@ -54,4 +66,3 @@
     margin: 10px;
     text-align: center;
   }
-  

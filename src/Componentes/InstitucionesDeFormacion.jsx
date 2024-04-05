@@ -5,9 +5,12 @@ export const InstitucionesDeFormacion = () => {
   return (
     <div className="container">
         <div className="row">
-          <div className="column titleGreen">
+          <div className="column titleBoxSecondSection">
             <img src={Img} alt="" />
+            <div className="div-border-bottom_title">
+
             <h3>Institucion de Formacion Profesional</h3>
+            </div>
             </div>
         </div>
         <div className="row ">
